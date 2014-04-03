@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^about$ ?page=about  [L]
+RewriteRule ^web$ ?page=web  [L]
+RewriteRule ^art$ ?page=art  [L]
+RewriteRule ^other$ ?page=other  [L]
