@@ -9,7 +9,7 @@ var pathArray = window.location.pathname.split('/');
 // where x = a menu item like art, other, about
 // array[0] = localhost
 // array[1] = dev
-// array[2] = js-url
+// array[2] = menu-highlight
 // array[3] = x
 
 
