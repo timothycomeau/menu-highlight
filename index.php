@@ -41,40 +41,6 @@ break;
 }
 ?>
 
-<br><br><br>
-<!--
-<script>
-	var url = window.location.href;
-	var pathArray = window.location.pathname.split('/');
-	document.write(url);
-</script>
-<br><br>
-<script>
-	document.write(pathArray[3]);
-</script>
-<br><br>
-<script>
-	if (pathArray[3] == 'about') 
-	{
-	document.write("path is about");
-	document.getElementById('a').innerHTML = '<u>About</u>';
-	}
-	if
-	 (pathArray[3] == "web") 
-	{
- 	document.write("path is web");
- 	document.getElementById('b').innerHTML = '<u>Web</u>';
-	 }
-	 if (pathArray[3] == "art") {
- 	document.write("path is art");
- 	document.getElementById('c').innerHTML = '<u>Art</u>';
-	 };
-	 if (pathArray[3] == "other") {
- 	document.write("path is other");
- 	document.getElementById('d').innerHTML = '<u>Other</u>';
-	 };
-</script>
--->
 <script src="d/js/menu.js"></script>
 <script src="d/js/jquery-2.1.0.min.js"></script>
 <script src="d/js/custom.modernizr.js"></script>
