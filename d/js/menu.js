@@ -1,9 +1,13 @@
 // parses the url into an array variable named pathArray
 var pathArray = window.location.pathname.split('/');
 
-// in this case url is localhost:8888/dev/menu-highlight/x
+
+// if this repo was installed to a localhost dev directory so
+// that the url was localhost/dev/menu-highlight ...
+
+// in this case url is localhost/dev/menu-highlight/x
 // where x = a menu item like art, other, about
-// array[0] = localhost:8888
+// array[0] = localhost
 // array[1] = dev
 // array[2] = js-url
 // array[3] = x
