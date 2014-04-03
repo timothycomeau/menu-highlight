@@ -45,12 +45,6 @@ break;
 <script src="d/js/jquery-2.1.0.min.js"></script>
 <script src="d/js/custom.modernizr.js"></script>
 <script src="d/js/html5shiv.js"></script>
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+
 </body>
 </html>
