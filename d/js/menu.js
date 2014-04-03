@@ -1,7 +1,7 @@
 // parses the url into an array variable named pathArray
 var pathArray = window.location.pathname.split('/');
 
-// in this case url is localhost:8888/dev/js-url/x
+// in this case url is localhost:8888/dev/menu-highlight/x
 // where x = a menu item like art, other, about
 // array[0] = localhost:8888
 // array[1] = dev
