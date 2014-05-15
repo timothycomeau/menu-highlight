@@ -1,1 +1,1 @@
-other
+other sub-menu-item
