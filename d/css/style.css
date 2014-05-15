@@ -22,6 +22,7 @@ textarea {resize: vertical;}
 /* Author Styles
 /*==================================================================*/
 
+
 nav li, ul {
 	display:inline;
 }
@@ -33,6 +34,10 @@ nav a {
 
 nav {
 	border-bottom: 1px solid #ddd;
+}
+
+#display {
+	padding-left:40px;
 }
 
 

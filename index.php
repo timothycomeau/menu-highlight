@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="d/css/style.css">
 </head>
 <body>
-<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
+
 
 <nav>
 	<ul>
@@ -19,6 +19,8 @@
 		<li id='d'><a href="other">Other</a></li>
 	</ul>
 </nav>
+
+<div id="display">
 
 <?php switch ( $_GET['page'] ) {
 
@@ -40,9 +42,9 @@ break;
 
 }
 ?>
+</div>
 
 <script src="d/js/menu.js"></script>
-<script src="d/js/jquery-2.1.0.min.js"></script>
 <script src="d/js/custom.modernizr.js"></script>
 <script src="d/js/html5shiv.js"></script>
 

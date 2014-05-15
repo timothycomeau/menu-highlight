@@ -1,7 +1,6 @@
 // parses the url into an array variable named pathArray
 var pathArray = window.location.pathname.split('/');
 
-
 // if this repo was installed to a localhost dev directory so
 // that the url was localhost/dev/menu-highlight ...
 
@@ -12,7 +11,6 @@ var pathArray = window.location.pathname.split('/');
 // array[2] = menu-highlight
 // array[3] = x
 
-
 // if path = x then underline menu item
 // menu items are <li id="a"> etc
 // getElementByID and rewrite innerHTML with underline tags
@@ -22,20 +20,20 @@ var pathArray = window.location.pathname.split('/');
 
 if (pathArray[3] == 'about') 
 	{
-	document.write("path is about");
+	document.write("<span style='padding-left:40px'>path is about</span>");
 	document.getElementById('a').innerHTML = '<u>About</u>';
 	}
 	if
 	 (pathArray[3] == "web") 
 	{
- 	document.write("path is web");
+ 	document.write("<span style='padding-left:40px'>path is web</span>");
  	document.getElementById('b').innerHTML = '<u>Web</u>';
 	 }
 	 if (pathArray[3] == "art") {
- 	document.write("path is art");
+ 	document.write("<span style='padding-left:40px'>path is art</span>");
  	document.getElementById('c').innerHTML = '<u>Art</u>';
 	 };
 	 if (pathArray[3] == "other") {
- 	document.write("path is other");
+ 	document.write("<span style='padding-left:40px'>path is other</span>");
  	document.getElementById('d').innerHTML = '<u>Other</u>';
 	 };
