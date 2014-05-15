@@ -1,11 +1,11 @@
 Menu-Highlight
 ==============
 
-Basic example website to show how to highlight menu items with javascript, where menu items are PHP includes.
+Basic example website to show how to highlight menu items with basic Javascript, where menu items are PHP includes.
 
 [Example](http://timothycomeau.com/dev/menu-highlight/)
 
-.htaccess runs a clean url rewrite
+`.htaccess` runs a clean url rewrite
 
 ```
 RewriteEngine On
@@ -16,7 +16,7 @@ RewriteRule ^art$ ?page=art  [L]
 RewriteRule ^other$ ?page=other  [L]
 ```
 
-index.php run a switch function 
+`index.php` runs a switch function 
 
 ```php
 <?php switch ( $_GET['page'] ) {
@@ -41,7 +41,7 @@ break;
 ?>
 ```
 
-menu.js parses the url and getElementbyId the a tag to change it's CSS class
+`menu.js` parses the url and `getElementbyId` the `a` tag to change its CSS class
 
 ```js
 var pathArray = window.location.pathname.split('/');
