@@ -41,7 +41,9 @@ break;
 ?>
 ```
 
-`menu.js` parses the url and `getElementbyId` the `a` tag to change its CSS class
+`menu.js` parses the url and `getElementbyId` the `a` tag to add rewrite:
+Method 1 rewrites  `innerHTML` with `u` tags. 
+Method 2 changes the css class
 
 ```js
 var pathArray = window.location.pathname.split('/');
@@ -65,4 +67,15 @@ if (pathArray[3] == 'about')
 	{
 	document.getElementById('a').innerHTML = '<u>About</u>';
 	}
+
+// METHOD 2
+
+if (pathArray[3] == 'about') 	{document.getElementById('a').className = "on";}
+if (pathArray[3] == "web")  	{document.getElementById('b').className = "on";}
+if (pathArray[3] == "other")	{document.getElementById('c').className = "on";}
+
+// where the a tags are written like 
+
+//<a id="a" class="off" href="about">about</a>
+
 ```
