@@ -63,7 +63,6 @@ var pathArray = window.location.pathname.split('/');
 
 if (pathArray[3] == 'about') 
 	{
-	document.write("<span style='padding-left:40px'>path is about</span>");
 	document.getElementById('a').innerHTML = '<u>About</u>';
 	}
 ```
