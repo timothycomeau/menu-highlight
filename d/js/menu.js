@@ -1,3 +1,7 @@
+/*==================================================================*/
+/* METHOD ONE: VERY BASIC WITH UNDERLINE TAGS 
+/*==================================================================*/
+
 // parses the url into an array variable named pathArray
 var pathArray = window.location.pathname.split('/');
 
@@ -37,3 +41,16 @@ if (pathArray[3] == 'about')
  	document.write("<span style='padding-left:40px'>path is other</span>");
  	document.getElementById('d').innerHTML = '<u>Other</u>';
 	 };
+
+/*==================================================================*/
+/* METHOD TWO: CHANGE THE CSS CLASS
+/*==================================================================*/
+
+// if (pathArray[3] == 'about') 	{document.getElementById('a').className = "on";}
+// if (pathArray[3] == "web")  	{document.getElementById('b').className = "on";}
+// if (pathArray[3] == "other")	{document.getElementById('c').className = "on";}
+
+// where the a tags are written like 
+
+//<a id="a" class="off" href="about">about</a>
+
