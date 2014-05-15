@@ -1,1 +1,1 @@
-art sub-menu-item
+* art sub-menu-item *

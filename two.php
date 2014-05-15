@@ -1,1 +1,1 @@
-web sub-menu-item
+* web sub-menu-item *

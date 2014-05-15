@@ -1,1 +1,1 @@
-about sub-menu item
+* about sub-menu item * 
