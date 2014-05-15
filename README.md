@@ -42,7 +42,9 @@ break;
 ```
 
 `menu.js` parses the url and `getElementbyId` the `a` tag to add rewrite:
+
 Method 1 rewrites  `innerHTML` with `u` tags. 
+
 Method 2 changes the css class
 
 ```js
