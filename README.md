@@ -3,7 +3,7 @@ Menu-Highlight
 
 Basic example website to show how to highlight menu items with basic Javascript, where menu items are PHP includes.
 
-[Example](http://timothycomeau.com/dev/menu-highlight/)
+[Example](http://dev.timothycomeau.com/menu-highlight/)
 
 `.htaccess` runs a clean url rewrite
 
